@@ -1,0 +1,23 @@
+{
+  "name": "nutriproject",
+  "version": "1.0.0",
+  "description": "healty",
+  "main": "global.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahauk/nutriProject.git"
+  },
+  "author": "ahaukless",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ahauk/nutriProject/issues"
+  },
+  "homepage": "https://github.com/Ahauk/nutriProject#readme",
+  "devDependencies": {
+    "jquery": "^3.2.1",
+    "jquery-ui": "^1.12.1"
+  }
+}
