@@ -166,3 +166,23 @@ a {
   right: 0; }
 
 /*# sourceMappingURL=main.css.map */
+
+#test {
+    float: left;
+    position: relative;
+    left: 50%;
+    transform: translateY(-50%);
+}
+
+.guardaInput {
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    -moz-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    color: #6D6D6D;
+}

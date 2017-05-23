@@ -1,10 +1,10 @@
 {
   "name": "nutriproject",
   "version": "1.0.0",
-  "description": "healty",
-  "main": "global.js",
+  "description": "health",
+  "main": "script/global.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "script/global.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,14 @@
   },
   "homepage": "https://github.com/Ahauk/nutriProject#readme",
   "devDependencies": {
+    "browserify": "^14.3.0",
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^3.0.0",
     "jquery": "^3.2.1",
-    "jquery-ui": "^1.12.1"
+    "jquery-ui": "^1.12.1",
+    "jsdom": "^10.1.0",
+    "shelljs": "^0.7.7",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
   }
 }

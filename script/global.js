@@ -1,4 +1,4 @@
-$(function () {
+$(document).ready(function(){
     $('input[type="submit"]').mousedown(function () {
         $(this).css('background', '#F89406');
     });
@@ -37,31 +37,5 @@ $(function () {
     setTimeout(function() {
         $("#girl").removeClass("fat").addClass("slim").fadeIn(1500);
     },3000);
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
 });
